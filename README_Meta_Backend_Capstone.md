@@ -19,7 +19,7 @@ This is a capstone project for the **Meta Back-End Development** course. It show
 ### 1. Clone the Repository
 ```bash
 git clone <your-repo-url>
-cd little-lemon-web-app
+cd LittleLemon
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -32,6 +32,7 @@ pipenv shell  # Windows
 ### 3. Install Required Packages
 ```bash
 pip install django
+pip install djoser
 pip3 install mysqlclient
 pip3 install djangorestframework
 ```
